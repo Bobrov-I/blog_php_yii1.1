@@ -1,0 +1,1200 @@
+2024/10/05 05:04:15 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "User.password_hash".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('password_hash')
+#1 C:\xampp\htdocs\blog\protected\components\UserIdentity.php(25): CActiveRecord->__get('password_hash')
+#2 C:\xampp\htdocs\blog\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\blog\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/blog/index.php/site/login
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/05 05:12:32 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "User.password_hash".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('password_hash')
+#1 C:\xampp\htdocs\blog\protected\components\UserIdentity.php(37): CActiveRecord->__get('password_hash')
+#2 C:\xampp\htdocs\blog\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\blog\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/blog/index.php/site/login
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/05 05:13:15 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "User.hashPassword".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('hashPassword')
+#1 C:\xampp\htdocs\blog\protected\components\UserIdentity.php(37): CActiveRecord->__get('hashPassword')
+#2 C:\xampp\htdocs\blog\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\blog\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/blog/index.php/site/login
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/05 05:17:05 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "UserIdentity._id".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\components\UserIdentity.php(35): CComponent->__set('_id', '2')
+#1 C:\xampp\htdocs\blog\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\blog\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blog/index.php/site/login
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/05 05:17:51 [error] [exception.CException] exception 'CException' with message 'Свойство "UserIdentity.id" доступно только для чтения.' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:169
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\components\UserIdentity.php(35): CComponent->__set('id', '2')
+#1 C:\xampp\htdocs\blog\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\blog\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/blog/index.php/site/login
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 01:57:45 [error] [exception.CException] exception 'CException' with message 'В классе RegisterForm и его поведениях не найден метод или замыкание с именем "hashPassword".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:264
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(110): CComponent->__call('hashPassword', Array)
+#1 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(110): RegisterForm->hashPassword('123123')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#3 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#8 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/register
+---
+2024/10/06 02:13:04 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(117): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:16:45 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(117): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:20:29 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(122): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:20:30 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(122): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:20:33 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(122): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:25:45 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(122): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:26:29 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(122): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:26:30 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(122): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:26:30 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(122): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:28:55 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(117): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:28:57 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(117): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:28:59 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(117): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:29:49 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(117): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:29:50 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(117): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:29:51 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(117): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 02:29:54 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CEmailValidator.0".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:172
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\validators\CValidator.php(177): CComponent->__set('0', 'password')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(287): CValidator::createValidator('email', Object(RegisterForm), 'username', Array)
+#2 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(260): CModel->createValidators()
+#3 C:\xampp\htdocs\blog\yii\framework\base\CModel.php(304): CModel->getValidators('username')
+#4 C:\xampp\htdocs\blog\yii\framework\web\helpers\CHtml.php(1534): CModel->isAttributeRequired('username')
+#5 C:\xampp\htdocs\blog\yii\framework\web\widgets\CActiveForm.php(601): CHtml::activeLabelEx(Object(RegisterForm), 'username', Array)
+#6 C:\xampp\htdocs\blog\protected\views\site\register.php(17): CActiveForm->labelEx(Object(RegisterForm), 'username')
+#7 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(785): CController->renderPartial('register', Array, true)
+#11 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(117): CController->render('register', Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#13 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('register')
+#17 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#18 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/blog/index.php/site/register
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/06 03:30:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "page".' in C:\xampp\htdocs\blog\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\CController.php(270): CController->missingAction('page')
+#1 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#2 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/page')
+#3 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php/post/page?view
+---
+2024/10/06 03:36:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "зщые".' in C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('\xD0\xB7\xD1\x89\xD1\x8B\xD0\xB5')
+#1 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/index.php/%D0%B7%D1%89%D1%8B%D0%B5
+---
+2024/10/07 05:17:59 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser._id".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('_id')
+#1 C:\xampp\htdocs\blog\protected\controllers\PostController.php(73): CWebUser->__get('_id')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): PostController->actionCreate()
+#3 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/create')
+#13 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/blog/index.php/post/create
+HTTP_REFERER=http://localhost/blog/index.php/post/create
+---
+2024/10/07 05:29:40 [error] [exception.CException] exception 'CException' with message 'В классе CWebUser и его поведениях не найден метод или замыкание с именем "search".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:264
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(74): CComponent->__call('search', Array)
+#1 C:\xampp\htdocs\blog\protected\controllers\PostController.php(74): CWebUser->search('id')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): PostController->actionCreate()
+#3 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/create')
+#13 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/blog/index.php/post/create
+HTTP_REFERER=http://localhost/blog/index.php/post/create
+---
+2024/10/07 05:30:09 [error] [php] Object of class CWebUser could not be converted to string (C:\xampp\htdocs\blog\protected\controllers\PostController.php:74)
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): PostController->actionCreate()
+#1 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#3 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#9 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): PostController->run()
+#10 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/index.php/post/create
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\blog\index.php (13)
+2024/10/07 05:30:31 [error] [exception.CException] exception 'CException' with message 'В классе CWebApplication и его поведениях не найден метод или замыкание с именем "array".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:264
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(74): CComponent->__call('array', Array)
+#1 C:\xampp\htdocs\blog\protected\controllers\PostController.php(74): CWebApplication->array('user')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): PostController->actionCreate()
+#3 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/create')
+#13 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/blog/index.php/post/create
+HTTP_REFERER=http://localhost/blog/index.php/post/create
+---
+2024/10/07 05:30:57 [error] [php] Array to string conversion (C:\xampp\htdocs\blog\protected\controllers\PostController.php:74)
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): PostController->actionCreate()
+#1 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#3 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#9 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): PostController->run()
+#10 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/index.php/post/create
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\blog\index.php (13)
+2024/10/07 05:31:05 [error] [php] Object of class CWebUser could not be converted to string (C:\xampp\htdocs\blog\protected\controllers\PostController.php:74)
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): PostController->actionCreate()
+#1 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#3 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#9 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): PostController->run()
+#10 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/index.php/post/create
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (74)
+in C:\xampp\htdocs\blog\index.php (13)
+2024/10/07 05:31:48 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CWebUser.email".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('email')
+#1 C:\xampp\htdocs\blog\protected\controllers\PostController.php(74): CWebUser->__get('email')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): PostController->actionCreate()
+#3 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/create')
+#13 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/blog/index.php/post/create
+HTTP_REFERER=http://localhost/blog/index.php/post/create
+---
+2024/10/07 05:54:25 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "UserIdentity._id".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\components\UserIdentity.php(36): CComponent->__get('_id')
+#1 C:\xampp\htdocs\blog\yii\framework\web\auth\CWebUser.php(231): UserIdentity->getId()
+#2 C:\xampp\htdocs\blog\protected\models\LoginForm.php(76): CWebUser->login(Object(UserIdentity), 0)
+#3 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(93): LoginForm->login()
+#4 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#5 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/blog/index.php/site/login
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/07 05:55:29 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "UserIdentity._id".' in C:\xampp\htdocs\blog\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\components\UserIdentity.php(36): CComponent->__get('_id')
+#1 C:\xampp\htdocs\blog\yii\framework\web\auth\CWebUser.php(231): UserIdentity->getId()
+#2 C:\xampp\htdocs\blog\protected\models\LoginForm.php(76): CWebUser->login(Object(UserIdentity), 0)
+#3 C:\xampp\htdocs\blog\protected\controllers\SiteController.php(93): LoginForm->login()
+#4 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#5 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/blog/index.php/site/login
+HTTP_REFERER=http://localhost/blog/index.php/site/login
+---
+2024/10/07 05:56:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xD0\xA3 \xD0\xB2\xD0\xB0\xD1\x81 \xD0\xBD\xD0\xB5\xD0...')
+#1 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/admin')
+#9 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php/post/admin
+HTTP_REFERER=http://localhost/blog/index.php/post/3
+---
+2024/10/07 06:06:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xD0\xA3 \xD0\xB2\xD0\xB0\xD1\x81 \xD0\xBD\xD0\xB5\xD0...')
+#1 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/admin')
+#9 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php/post/admin
+HTTP_REFERER=http://localhost/blog/index.php/post/index
+---
+2024/10/07 06:12:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xD0\xA3 \xD0\xB2\xD0\xB0\xD1\x81 \xD0\xBD\xD0\xB5\xD0...')
+#1 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/delete')
+#9 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php/post/delete/5
+HTTP_REFERER=http://localhost/blog/index.php/post/5
+---
+2024/10/07 06:13:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xD0\xA3 \xD0\xB2\xD0\xB0\xD1\x81 \xD0\xBD\xD0\xB5\xD0...')
+#1 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/admin')
+#9 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php/post/admin
+HTTP_REFERER=http://localhost/blog/index.php/post/5
+---
+2024/10/07 06:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:163
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(51): PostController->loadModel('5')
+#1 [internal function]: PostController->actionView('5')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/5
+HTTP_REFERER=http://localhost/blog/index.php/post/update/5
+---
+2024/10/07 06:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:163
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(87): PostController->loadModel('5')
+#1 [internal function]: PostController->actionUpdate('5')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/update')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/update/5
+HTTP_REFERER=http://localhost/blog/index.php/post/5
+---
+2024/10/07 06:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:163
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(51): PostController->loadModel('5')
+#1 [internal function]: PostController->actionView('5')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/5
+HTTP_REFERER=http://localhost/blog/index.php/post/index
+---
+2024/10/07 06:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:163
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(51): PostController->loadModel('5')
+#1 [internal function]: PostController->actionView('5')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/5
+HTTP_REFERER=http://localhost/blog/index.php/post/index
+---
+2024/10/07 06:14:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xD0\xA3 \xD0\xB2\xD0\xB0\xD1\x81 \xD0\xBD\xD0\xB5\xD0...')
+#1 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/admin')
+#9 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php/post/admin
+HTTP_REFERER=http://localhost/blog/index.php/post/7
+---
+2024/10/07 06:14:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:163
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(51): PostController->loadModel('7')
+#1 [internal function]: PostController->actionView('7')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/7
+HTTP_REFERER=http://localhost/blog/index.php/post/index
+---
+2024/10/07 06:16:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "@".' in C:\xampp\htdocs\blog\yii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\CController.php(270): CController->missingAction('@')
+#1 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('@')
+#2 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/@')
+#3 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php/post/@
+HTTP_REFERER=http://localhost/blog/index.php/post/6
+---
+2024/10/07 06:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:163
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(51): PostController->loadModel('6')
+#1 [internal function]: PostController->actionView('6')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/6
+HTTP_REFERER=http://localhost/blog/index.php/post/index
+---
+2024/10/07 06:17:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xD0\xA3 \xD0\xB2\xD0\xB0\xD1\x81 \xD0\xBD\xD0\xB5\xD0...')
+#1 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/admin')
+#9 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php/post/admin
+HTTP_REFERER=http://localhost/blog/index.php/post/9
+---
+2024/10/07 06:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:162
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(50): PostController->loadModel('9')
+#1 [internal function]: PostController->actionView('9')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/9
+HTTP_REFERER=http://localhost/blog/index.php/post/index
+---
+2024/10/07 06:19:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'У вас недостаточно прав для выполнения указанного действия.' in C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), '\xD0\xA3 \xD0\xB2\xD0\xB0\xD1\x81 \xD0\xBD\xD0\xB5\xD0...')
+#1 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/admin')
+#9 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php/post/admin
+HTTP_REFERER=http://localhost/blog/index.php/post/10
+---
+2024/10/07 06:19:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:162
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(50): PostController->loadModel('10')
+#1 [internal function]: PostController->actionView('10')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/10
+HTTP_REFERER=http://localhost/blog/index.php/post/index
+---
+2024/10/07 06:21:44 [error] [php] Undefined variable: model (C:\xampp\htdocs\blog\protected\controllers\PostController.php:112)
+Stack trace:
+#0 unknown(0): PostController->actionDelete()
+#1 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs()
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): PostController->runAction()
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): PostController->run()
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\blog\index.php(13): CWebApplication->run()
+REQUEST_URI=/blog/index.php/post/delete/11
+in C:\xampp\htdocs\blog\protected\controllers\PostController.php (112)
+in C:\xampp\htdocs\blog\index.php (13)
+2024/10/07 06:22:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:170
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(110): PostController->loadModel('11')
+#1 [internal function]: PostController->actionDelete('11')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/delete')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/delete/11
+HTTP_REFERER=http://localhost/blog/index.php/post/11
+---
+2024/10/07 06:22:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:170
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(50): PostController->loadModel('11')
+#1 [internal function]: PostController->actionView('11')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/11
+HTTP_REFERER=http://localhost/blog/index.php/post/index
+---
+2024/10/07 06:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:170
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(111): PostController->loadModel('12')
+#1 [internal function]: PostController->actionDelete('12')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/delete')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/delete/12
+HTTP_REFERER=http://localhost/blog/index.php/post/12
+---
+2024/10/07 06:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:162
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(50): PostController->loadModel('12')
+#1 [internal function]: PostController->actionView('12')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/12
+HTTP_REFERER=http://localhost/blog/index.php/post/create
+---
+2024/10/07 06:31:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:162
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(50): PostController->loadModel('11')
+#1 [internal function]: PostController->actionView('11')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/11
+---
+2024/10/07 06:33:15 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in C:\xampp\htdocs\blog\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\blog\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#10 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/blog/index.php/post/view
+---
+2024/10/07 09:28:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\blog\protected\controllers\PostController.php:164
+Stack trace:
+#0 C:\xampp\htdocs\blog\protected\controllers\PostController.php(50): PostController->loadModel('1')
+#1 [internal function]: PostController->actionView('1')
+#2 C:\xampp\htdocs\blog\yii\framework\web\actions\CAction.php(114): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#3 C:\xampp\htdocs\blog\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\blog\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\blog\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\blog\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\blog\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\blog\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\blog\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\blog\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/view')
+#14 C:\xampp\htdocs\blog\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php/post/1
+---
