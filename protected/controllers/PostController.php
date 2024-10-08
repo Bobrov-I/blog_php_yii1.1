@@ -84,7 +84,6 @@ class PostController extends Controller
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
-
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
@@ -113,7 +112,7 @@ class PostController extends Controller
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('index'));
 	}
-
+	
 	/**
 	 * Lists all models.
 	 */
@@ -157,10 +156,9 @@ class PostController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$userId = Yii::app()->user->id;
-		$model=Post::model()->findByPk($id);
+		$model = Post::model()->ownedByCurrentUser()->findByPk($id);
 
-		if($model===null || $model->author_id!==$userId)
+		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
 	}

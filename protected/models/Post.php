@@ -136,4 +136,16 @@ class Post extends CActiveRecord
         $this->updated_at = date('Y-m-d H:i:s');
         return parent::beforeSave();
     }
+	
+	public function scopes()
+	{
+		return array(
+			'ownedByCurrentUser' => array(
+				'condition' => 'author_id=:userId',
+				'params' => array(':userId' => Yii::app()->user->id),
+			),
+		);
+	}
+
+
 }
